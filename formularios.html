@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Trabalhando com Formulários no HTML | Prog III</title>
+    <meta name="description" content="Tags html para trabalharmos com formulários."/>
+	<meta name="keywords" content="html, css,ifrs, web"/>
+	<meta name="author" description="Cristiano Luz"/>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+  </head>
+  <body>
+  <section class="container">
+    <section>
+      <header>
+      </header>
+      <nav>
+      </nav>
+      <section>
+	    <h1>Trabalhando com Formulários no HTML | Prog III</h1>
+		  <form action="http://www.dltec.com.br/cursohtml/processa-form.phtml" method="POST" enctype="multipart/form-data">
+		    <h3>Dados do Aluno</h3>
+		    <p>Campos marcados com (*) são obrigatórios:</p>
+			<p>
+			  <label for="nome">Nome:</label> 
+			  <input type="text" name="nome" id="nome" required="required" placeholder="Informe seu nome" />(*)
+			</p>
+			<p>
+			  <label for="sobrenome">Sobrenome:</label> 
+			  <input type="text" name="sobrenome" id="sobrenome" required="required" placeholder="Informe seu sobrenome" />(*)
+			</p>
+			<p>
+			  <label for="email">Email:</label> 
+			  <input type="email" name="email" id="email"pattern="^[0-9a-zA-Z-._+]+@[a-zA-Z0-9-_+]+\.[a-zA-Z]+(\.[a-zA-Z]+)?" required="required" placeholder="email@dominio.com"/>(*)
+			</p>
+			<p>
+			  <label for="curso">Curso:</label> 
+			  <select id="curso" name="cursos">
+			    <option value="html">HTML</option>
+			    <option value="redes">Redes</option>
+			    <option value="ccna">CCNA</option>
+			    <option value="linux">Linux</option>
+			  </select>
+			  <label for="inicio">Início</label>
+			  <input type="date" name="inicio" id="inicio" placeholder="mm/dd/yyyy" />
+			</p>
+			<p>
+			  <label for="acesso">Prazo de Acesso</label>
+			  <input type="radio" name="acesso" id="acesso" value="90" checked /> 90 dias
+			  <input type="radio" name="acesso" id="acesso" value="180" /> 180 dias
+			</p>
+			<p><input type="submit" value="Enviar Formulário"></p>
+		  </form>
+	  </section>
+      <footer>
+      </footer>
+    </section>
+  </body>
+</html>
+
+
+
