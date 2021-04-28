@@ -2,6 +2,8 @@ body{
 	background-color: #E5E1D1;
 	color: #2C343B;
 	background-image: url('../img/OBS_small-r.png');
+	font-size: 105%;
+	font-family: "Helvetica", "Verdana", "Arial", "sans-serif" ;
 }
 
 .container{
@@ -14,7 +16,96 @@ body{
 h1 {
 	background-color: #2C343B;
 	color: #E5E1D1;
+	font-size: 2em;
+	text-transform: capitalize;
 }
+
 h2, h3, h4 {
 	color: #C44741;
+	font-size: 1.5em;
+}
+
+.crazygreen {
+	color: #1CA832;
+	font-family: monospace;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	text-shadow: .2em .3em .5em #EFEB12;
+}
+
+.madblack {
+	color:#000000;
+	font-family: Arial;
+	text-shadow: .2em .2em .5em #F94848;
+	word-spacing: 1em;
+	text-decoration: line-through;
+}
+
+.center {
+	text-align: center;
+}
+
+.cabecalho {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#52616d+0,2c343b+100 */
+	background: rgb(82,97,109); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(82,97,109,1) 0%, rgba(44,52,59,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(82,97,109,1) 0%,rgba(44,52,59,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(82,97,109,1) 0%,rgba(44,52,59,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52616d', endColorstr='#2c343b',GradientType=0 ); /* IE6-9 */
+}
+
+.titulo_site {
+	color:#FFFFFF;
+	font-size: 2.35em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.subtitulo_site {
+	color:#FFFFFF;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.menu{
+	background-color:#C44741;
+	color: #FFFFFF;
+}
+
+.menu ul {
+	list-style: none;
+}
+
+ul[role="quadrada"] {
+	list-style-type: square;
+}
+
+ol[role="romanos"] {
+	list-style-type:upper-roman;
+}
+
+a.prog3:link {
+	text-decoration:none;
+	color:#C44741;
+}
+
+a.prog3:visited {
+	text-decoration:none;
+	color:#0EE039;
+}
+
+a.crazy:hover {
+	background-color: #2C343B;
+	color: #FFFFFF;
+}
+
+a.crazy:active {
+	background-color: #C44741;
+	color: #2C343B;
+}
+
+.menu a {
+text-decoration: none;
 }
